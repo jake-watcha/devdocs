@@ -22,7 +22,6 @@ group :app do
   gem 'erubi'
   gem 'browser'
   gem 'sass'
-  gem 'coffee-script'
   gem 'chunky_png'
   gem 'sprockets-sass'
   gem 'image_optim'
