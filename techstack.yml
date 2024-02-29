@@ -2,7 +2,7 @@ repo_name: jake-watcha/devdocs
 report_id: a5af9802aef00ab30f66aad168c81dfb
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:00:38+00:00'
+timestamp: '2024-02-29T18:28:37+00:00'
 requested_by: simon04
 provider: github
 branch: main
@@ -316,6 +316,12 @@ tools:
   last_updated_by: Thibaut Courouble
   last_updated_on: 2018-10-21 22:41:35.000000000 Z
   vulnerabilities:
+  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
+    detected_date: Feb 6
+    severity: moderate
+    first_patched: 1.16.2
   - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
     cve_id: 
     cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
@@ -366,6 +372,25 @@ tools:
   detection_source: Gemfile
   last_updated_by: Paul Sernatinger
   last_updated_on: 2022-11-14 14:30:30.000000000 Z
+  vulnerabilities:
+  - name: Rack vulnerable to ReDoS in content type parsing (2nd degree polynomial)
+    cve_id: CVE-2024-25126
+    cve_url: https://github.com/advisories/GHSA-22f2-v57c-j9cx
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack Header Parsing leads to Possible Denial of Service Vulnerability
+    cve_id: CVE-2024-26146
+    cve_url: https://github.com/advisories/GHSA-54rr-7fvw-6x8f
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack has possible DoS Vulnerability with Range Header
+    cve_id: CVE-2024-26141
+    cve_url: https://github.com/advisories/GHSA-xj5v-6v4g-jfw6
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
 - name: rack-test
   description: Rack::Test is a small, simple testing API for Rack apps
   package_url: https://rubygems.org/rack-test
