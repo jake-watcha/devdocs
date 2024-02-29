@@ -3,15 +3,15 @@
 ## Tech Stack
 jake-watcha/devdocs is built on the following main stack:
 
-- [New Relic](http://newrelic.com) – Performance Monitoring
-- [Ruby](https://www.ruby-lang.org) – Languages
-- [Sinatra](http://www.sinatrarb.com/) – Microframeworks (Backend)
 - [CoffeeScript](http://coffeescript.org/) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [Sinatra](http://www.sinatrarb.com/) – Microframeworks (Backend)
 - [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [New Relic](http://newrelic.com) – Performance Monitoring
+- [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -21,15 +21,15 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 jake-watcha/devdocs is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png' alt='New Relic'/> [New Relic](http://newrelic.com) – Performance Monitoring
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/999/logo.png' alt='Sinatra'/> [Sinatra](http://www.sinatrarb.com/) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1178/slQydAMv.png' alt='CoffeeScript'/> [CoffeeScript](http://coffeescript.org/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'/> [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/999/logo.png' alt='Sinatra'/> [Sinatra](http://www.sinatrarb.com/) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'/> [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png' alt='New Relic'/> [New Relic](http://newrelic.com) – Performance Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'/> [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -40,7 +40,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [jake-watcha/devdocs](https://github.com/jake-watcha/devdocs)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|42<br/>Tools used|01/05/24 <br/>Report generated|
+|42<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -177,10 +177,10 @@ Full tech stack [here](/techstack.md)
 |[minitest](https://rubygems.org/minitest)|v5.18.0|01/03/15|Thibaut |MIT|N/A|
 |[net-sftp](https://rubygems.org/net-sftp)|v4.0.0|11/14/22|Paul Sernatinger |MIT|N/A|
 |[newrelic_rpm](https://rubygems.org/newrelic_rpm)|v8.16.0|03/24/18|Thibaut Courouble |Apache-2.0|N/A|
-|[nokogiri](https://rubygems.org/nokogiri)|v1.14.2|10/21/18|Thibaut Courouble |MIT|[](https://github.com/advisories/GHSA-pxvg-2qj5-37jq) (Moderate)|
+|[nokogiri](https://rubygems.org/nokogiri)|v1.14.2|10/21/18|Thibaut Courouble |MIT|[](https://github.com/advisories/GHSA-xc9x-jj77-9p9j) (Moderate)<br/>[](https://github.com/advisories/GHSA-pxvg-2qj5-37jq) (Moderate)|
 |[progress_bar](https://rubygems.org/progress_bar)|v1.3.3|01/26/14|Thibaut |WTFPL|N/A|
 |[pry-byebug](https://rubygems.org/pry-byebug)|v3.10.1|11/14/22|Paul Sernatinger |MIT|N/A|
-|[rack](https://rubygems.org/rack)|v2.2.6|11/14/22|Paul Sernatinger |MIT|N/A|
+|[rack](https://rubygems.org/rack)|v2.2.6|11/14/22|Paul Sernatinger |MIT|[CVE-2024-25126](https://github.com/advisories/GHSA-22f2-v57c-j9cx) (Low)<br/>[CVE-2024-26146](https://github.com/advisories/GHSA-54rr-7fvw-6x8f) (Low)<br/>[CVE-2024-26141](https://github.com/advisories/GHSA-xj5v-6v4g-jfw6) (Low)|
 |[rack-test](https://rubygems.org/rack-test)|v2.1.0|11/14/22|Paul Sernatinger |MIT|N/A|
 |[rake](https://rubygems.org/rake)|v13.0.6|11/14/22|Paul Sernatinger |MIT|N/A|
 |[redcarpet](https://rubygems.org/redcarpet)|v3.6.0|11/14/22|Paul Sernatinger |MIT|N/A|
